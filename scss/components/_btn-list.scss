@@ -1,0 +1,38 @@
+.btn-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.btn__item {
+  margin-right: 8px;
+}
+
+.btn {
+  color: var(--primary-text-color);
+  cursor: pointer;
+  background-color: #f5f4fa;
+
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
