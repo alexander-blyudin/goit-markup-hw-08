@@ -11,22 +11,22 @@
   }
 
   @include mq(mobile) {
-    width: 480px;
+    width: 450px;
   }
 
   // mobile screen from 768px
-  @media screen and (min-width: 768px) {
-    width: 738px;
-  }
+  // @media screen and (min-width: 768px) {
+  //   width: 738px;
+  // }
 
   @include mq(tablet) {
     width: 768px;
   }
 
   // mobile screen from 1200px
-  @media screen and (min-width: 1200px) {
-    width: 1170px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   width: 1170px;
+  // }
 
   @include mq(desktop) {
     width: 1200px;

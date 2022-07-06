@@ -5,15 +5,16 @@
   padding-bottom: 0;
 }
 .list {
-  display: flex;
-}
+  &__item {
+    width: 100%;
+    margin-bottom: 30px;
 
-.list__item {
-  width: 25%;
-  margin-right: 30px;
-
-  &:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  @include mq(tablet) {
+    display: flex;
   }
 }
 
